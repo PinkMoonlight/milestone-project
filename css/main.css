@@ -1,28 +1,34 @@
 /*****BASE STYLES*****/
 body {
 	font-family: 'Montserrat', sans-serif;
-	color: #f8ffe5;
 	width: 1200px
 	margin: 0 auto;
 }
 
 header {
 	background-color: #1f202b; 
+	color: #f8ffe5;
+
 }
 
 #portfolio { 
 	height: 93.75em;  /**1500px**/
 	background-color: #1f202b; 
+	color: #f8ffe5;
+
 }
 
 #about {
 	height: 34.375em;  /*550px**/
+	background: url("../img/about-me.png");
+	background-size: cover;
 	background-color: #828A95;
 } 
 
 footer {
-	height: 62.5em;  /**1000px**/
-	background-color: #1f202b; 
+	height: 30.5em;  /**500px**/
+	background-color: #1f202b;
+	color: #f8ffe5;
 }
 
 .full-width { 
@@ -39,9 +45,13 @@ footer {
 .third-width {
 	width: 33.33%;
 	margin: 0 auto;
+	float: left;
 }
 
 /*****HEADER*****/
+section {
+	overflow: auto;
+}
 #background-image {
  	height: 50em;  /**800px**/
 	background: url('../img/hero-background.png');
@@ -96,8 +106,8 @@ li a:active {
 /*****PORTFOLIO*****/
 h2 {
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	font-weight: normal;
 	font-size: 36px;
 	font-family: 'Source Code Pro', monospace;
@@ -110,31 +120,80 @@ h2 {
   	width: 500px; /**550px**/
 }
 
-
-
 #top-right, #bottom-right, #mid-left {
 	margin-left: 50px;
 	margin-right: 50px;
 }
-/**
- p {
+
+.par-right {
  	margin-top: -025px; 
- 	width: 500px;
- } **/
+ 	width: 400px;
+ }
+
+ .par-left {
+ 	margin-top: -025px; 
+ 	width: 520px;
+ }
 
  #jubilee {
  	padding-bottom: 250px;
  }
-/**
-h3 {
+
+ #rogue {
+ 	text-align: right;
+}
+
+.portfolio-h3 {
 	margin-bottom: -20px;
 	margin-top: -5px;
-}. **/
+	width: 520px;
+}
 
- p, h4 {
+.portfolio-h4 {
+	width: 520px;
+}
+
+p, h4 {
 	font-weight: normal;
 }
 
 /*****ABOUT*****/
+#about-me {
+	padding-right: 500px;
+	padding-left:80px;
+	font-weight: normal;
+	font-size: 17px;
+}
 
 
+/*****FOOTER****/
+footer {
+	overflow: auto;
+}
+
+footer h3 {
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer ul {
+	padding: 0 55px 0 0;
+}
+
+footer ul li {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+#copyright {
+	margin-top: 335px;
+	}
+
+footer h3 a {
+	text-decoration: none;
+	color: #f8ffe5;
+}
