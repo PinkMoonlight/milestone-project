@@ -99,10 +99,6 @@ li a:hover {
 	color: #FF5E5B;
 }
 
-li a:active {
-	color: #FA0075;
-}
-
 /*****PORTFOLIO*****/
 h2 {
 	text-align: center;
@@ -117,7 +113,15 @@ h2 {
 	border: 1px solid #ddd;
   	border-radius: 4px;
   	padding: 5px;
-  	width: 500px; /**550px**/
+  	width: 31.25em; /**500px**/
+}
+
+.thumbnails a:link {
+	color: #ddd;
+}
+	
+.thumbnails:hover {
+	border: 1px solid #FA0075;
 }
 
 #top-right, #bottom-right, #mid-left {
@@ -147,6 +151,19 @@ h2 {
 	margin-bottom: -20px;
 	margin-top: -5px;
 	width: 520px;
+}
+
+.portfolio-h3 { 
+	text-decoration: none;
+}
+
+.portfolio-h3:link {
+		color: white;
+}
+
+
+.portfolio-h3:hover a { 
+	color: #FF5E5B;
 }
 
 .portfolio-h4 {
@@ -198,4 +215,12 @@ footer ul li {
 footer p a {
 	text-decoration: none;
 	color: #f8ffe5;
+}
+
+#email:hover {
+	color: #FA0075;
+}
+
+#email:visited {
+	color: #FF5E5B;
 }
