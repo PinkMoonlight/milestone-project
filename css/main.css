@@ -121,7 +121,7 @@ h2 {
 }
 	
 .thumbnails:hover {
-	border: 1px solid #FA0075;
+	border: 1px solid #FF5E5B;
 }
 
 #top-right, #bottom-right, #mid-left {
@@ -153,16 +153,17 @@ h2 {
 	width: 520px;
 }
 
-.portfolio-h3 { 
+.portfolio-link { 
 	text-decoration: none;
+	color: #F8FFE5;
 }
 
 .portfolio-h3:link {
-		color: white;
+		color: #F8FFE5;
 }
 
 
-.portfolio-h3:hover a { 
+.portfolio-link:hover { 
 	color: #FF5E5B;
 }
 
