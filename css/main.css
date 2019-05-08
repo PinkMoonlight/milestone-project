@@ -90,7 +90,7 @@ h2, header span {
 
 ul {
 	list-style-type: none;
-	margin: 0 0 0 70px;
+	margin: 0 0 0 170px;
 	padding: 10px 0 0 60px;}
 
 nav ul li {
@@ -111,7 +111,7 @@ li a:hover {
 }
 
 
-/*****PORTFOLIO*****/
+/*****PORTFOLIO*****/   
 h2 {
 	text-align: center;
 	padding-top: 20px;
@@ -138,7 +138,7 @@ h2 {
 .thumbnails a:link {
 	color: #ddd;
 }
-	
+
 .thumbnails:hover {
 	border: 1px solid #FF5E5B;
 }
@@ -167,7 +167,7 @@ h2 {
  	margin-right: 5px;
 }
 
-#mid a {
+.rogue-link {
 	padding-left: 105px;
 }
 
