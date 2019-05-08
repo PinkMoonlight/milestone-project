@@ -1,0 +1,141 @@
+.parent-div { 
+	border: 10px solid #bfbfbf;
+	overflow: auto;
+	width: 539px;
+	margin: 0 400px;
+}
+
+.child-one {
+	background: coral;
+	color: white;
+	font-size: 45px;
+	font-family: 'Quattrocento', serif;
+	padding: 10px 0 0 15px;
+	margin: -50px 0 
+}
+
+.big-life {
+	color: white;
+	font-size: 170px;
+}
+
+.child-two {
+	background: pink;
+	float: left;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	margin: 0;
+	padding: 0 10px;
+	width: 249px;
+	height: 520px;
+}
+
+.great-line {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.child-three {
+	font-size: 42px;
+	margin: 0;
+	padding: 0px;
+	width: 249px;
+	font-family: 'Oswald', sans-serif;
+	line-height: 130%; 
+
+}
+
+.child-four {
+	background: #6699ff;
+	float: left;
+	font-size: 21px;
+	margin: 0;
+	padding: 0 10px;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+
+
+}
+
+.child-five {
+	background: purple;
+	color: white;
+	float: left;
+	font-size: 45px;
+	margin: 0;
+	padding: 10px;
+	width: 250px;
+	height: 250px;
+	font-variant: small-caps;
+	text-align: center;
+
+}
+
+.child-six {
+	background: coral;
+	color: white;
+	float: left;
+	font-size: 22px;
+	margin: 0;
+	padding: 10px;
+	width: 249px;
+	height: 250px;
+	text-align: center;
+
+}
+.child-seven {
+	background:  #6699ff;
+	float: left;
+	font-size: 22px;
+	margin: 0;
+	padding: 30px 10px;
+	width: 250px;
+	height: 210px;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	}
+
+.child-eight {
+	background: pink;
+	float: left;
+	font-size: 24px;
+	margin: 0;
+	padding: 10px;
+	width: 249px;
+	height: 250px;
+}
+
+#travel {
+	font-size: 48px;
+}
+
+.child-nine {
+	background:  #6699ff;
+	float: left;
+	font-size: 24px;
+	padding: 10px;
+	width: 250px;
+	height: 250px;
+
+}
+
+.child-ten {
+	background: purple;
+	color: white;
+	font-size: 34px;
+	text-align: right;
+	margin: 0;
+	padding: 0 30px 0 0;
+	width: 509px;
+	overflow: auto;
+	height: 250px;
+	font-variant: small-caps;
+}
+
+.mid-life {
+	font-size: 70px;
+}
