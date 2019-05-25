@@ -1,7 +1,6 @@
 /*****BASE STYLES*****/
 body {
 	font-family: 'Montserrat', sans-serif;
-	width: 1400px;
 	margin: 0 auto;
 }
 
@@ -174,11 +173,6 @@ h2 {
 #jubilee h3, #rogue h3, #holstee h3 {
 	margin-bottom: -20px;
 }
-
-/**#rogue h3 {   
-	margin-top: -25px;
-	margin-bottom: -40px;
-} chrome weird glitch fix, but not needed in safari or firefox****/
 
 #holstee a, #jubilee a, #rogue a {
 	color: #F8FFE5;
